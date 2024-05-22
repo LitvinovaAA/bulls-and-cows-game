@@ -1,0 +1,287 @@
+{
+  "project" : {
+    "id" : "cowsandbulls-1000048247-iJE",
+    "name" : "cowsandbulls-1000048247-iJE",
+    "folder" : "/platform"
+  },
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "Europe/Moscow",
+    "extendedSettings" : {
+      "tokenizerEngine" : "mystem",
+      "useShared" : false
+    },
+    "shared" : false,
+    "validation" : {
+      "phraseValidationEnabled" : true,
+      "answerValidationEnabled" : true,
+      "phraseValidationThreshold" : 0.5,
+      "answerValidationThreshold" : 0.8
+    }
+  },
+  "intents" : [ {
+    "path" : "/Rules",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "правила"
+    }, {
+      "text" : "расскажи мне о правилах игры"
+    }, {
+      "text" : "я хочу узнать правила игры"
+    }, {
+      "text" : "какие правила"
+    }, {
+      "text" : "я не знаю, как играть"
+    }, {
+      "text" : "как играть"
+    }, {
+      "text" : "я не знаю правил"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Yes",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "да"
+    }, {
+      "text" : "начнем"
+    }, {
+      "text" : "ага"
+    }, {
+      "text" : "хорошо"
+    }, {
+      "text" : "согласен"
+    }, {
+      "text" : "хочу"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/LetsPlay",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "давай играть"
+    }, {
+      "text" : "начать игру"
+    }, {
+      "text" : "хочу играть"
+    }, {
+      "text" : "давай поиграем"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Bye",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "пока"
+    }, {
+      "text" : "до свидания"
+    }, {
+      "text" : "всего доброго"
+    }, {
+      "text" : "покедова"
+    }, {
+      "text" : "ну я пошел"
+    }, {
+      "text" : "гудбай"
+    }, {
+      "text" : "до скорого"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Hello",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "привет"
+    }, {
+      "text" : "здравствуй"
+    }, {
+      "text" : "здравствуйте"
+    }, {
+      "text" : "хелло"
+    }, {
+      "text" : "бонжур"
+    }, {
+      "text" : "добрый день"
+    }, {
+      "text" : "хай"
+    }, {
+      "text" : "здарова"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/No",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "нет"
+    }, {
+      "text" : "не хочу"
+    }, {
+      "text" : "не буду"
+    }, {
+      "text" : "не согласен"
+    }, {
+      "text" : "потом"
+    }, {
+      "text" : "не сейчас"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Help",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "главное меню"
+    }, {
+      "text" : "что я могу делать"
+    }, {
+      "text" : "я не понимаю, что делать"
+    }, {
+      "text" : "покажи варианты"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
+  "spellerDictionary" : [ ],
+  "systemEntities" : [ {
+    "name" : "mystem.geo",
+    "enabled" : false
+  }, {
+    "name" : "mystem.persn",
+    "enabled" : false
+  }, {
+    "name" : "mystem.obsc",
+    "enabled" : false
+  }, {
+    "name" : "mystem.patrn",
+    "enabled" : false
+  }, {
+    "name" : "mystem.famn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.romn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.latn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.numb",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.intg",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.abbr",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.name",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.surn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.patr",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.geox",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.orgn",
+    "enabled" : false
+  }, {
+    "name" : "duckling.number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.ordinal",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.amount-of-money",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.distance",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.date",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time-of-day",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.duration",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.phone-number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.email",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.url",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.interval",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "mlps-obscene.obscene",
+    "enabled" : false
+  }, {
+    "name" : "zb.datetime",
+    "enabled" : false
+  }, {
+    "name" : "zb.number",
+    "enabled" : false
+  } ],
+  "faq" : [ ],
+  "skills" : [ ]
+}
