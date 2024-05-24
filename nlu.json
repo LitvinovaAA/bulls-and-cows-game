@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "cowsandbulls-1000048247-iJE",
-    "name" : "cowsandbulls-1000048247-iJE",
+    "id" : "igra_byki_i_korovy_-1000048247-sPk",
+    "name" : "igra_byki_i_korovy_-1000048247-sPk",
     "folder" : "/platform"
   },
   "settings" : {
@@ -39,6 +39,10 @@
       "text" : "как играть"
     }, {
       "text" : "я не знаю правил"
+    }, {
+      "text" : "хочу узнать как играть"
+    }, {
+      "text" : "хочу понять как играть"
     } ],
     "classificationRules" : {
       "refs" : [ ]
@@ -52,8 +56,6 @@
     "phrases" : [ {
       "text" : "да"
     }, {
-      "text" : "начнем"
-    }, {
       "text" : "ага"
     }, {
       "text" : "хорошо"
@@ -61,6 +63,8 @@
       "text" : "согласен"
     }, {
       "text" : "хочу"
+    }, {
+      "text" : "давай"
     } ],
     "classificationRules" : {
       "refs" : [ ]
